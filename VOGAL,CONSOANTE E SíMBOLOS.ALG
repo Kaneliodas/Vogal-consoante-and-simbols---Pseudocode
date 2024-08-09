@@ -1,26 +1,26 @@
-Algoritmo "Vogal,consoante e símbolos"
+Algoritmo "Vogal,consoante e sÃ­mbolos"
 Var
 algarismo: caractere
 Inicio
-escreva(" Escreva um caractere(em minusculo) :")
+escreva(" Escreva um caractere(em maiÃºsculo) :")
 leia(algarismo)
 
 escolha algarismo
 
 caso "A", "E", "I", "O", "U"
-escreva(" É uma vogal.")
+escreva(" Ã‰ uma vogal.")
 
 caso  "B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"
-escreva(" É uma consoante")
+escreva(" Ã‰ uma consoante")
 
-caso "!","@","#","£","¢","¬","&","º","ª","§","|","\"
-escreva(" é um símbolo")
+caso "!","@","#","Â£","Â¢","Â¬","&","Âº","Âª","Â§","|","\"
+escreva(" Ã© um sÃ­mbolo")
 
 outrocaso
-escreva(" é um possível número.")
+escreva(" Ã© um possÃ­vel nÃºmero ou sÃ­mbolo desconhecido.")
 fimescolha
 Fimalgoritmo
 {Escreva um programa que leia um caracter e
-diga se ele é uma vogal, consoante, número
-ou um símbolo (qualquer outro caracter, que
-não uma letra ou número).}
+diga se ele Ã© uma vogal, consoante, nÃºmero
+ou um sÃ­mbolo (qualquer outro caracter, que
+nÃ£o uma letra ou nÃºmero).}
